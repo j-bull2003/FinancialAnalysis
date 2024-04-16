@@ -1,6 +1,7 @@
 # Project Data Analytics 📊
 
-## Overview 🌐
+## Deployed LIVE: check it out!
+### https://financialanalys.streamlit.app/
 
 This project involves a comprehensive data analytics process, from data wrangling 🧹, through exploratory data analysis and visualization 📈, to creating an interactive dashboard using the Streamlit package 📊.
 
