@@ -114,7 +114,7 @@ max_date = all_df["order_date"].max()
 
 with st.sidebar:
     # ! Add company's logo
-    st.image("../assets/Logo-Sis-collection.jpg")
+    st.image("https://www.businessbecause.com/uploads/default/news/images/1dad431b651fb806.jpg")
 
     # ! Take start_date & end_date from date_input
     start_date, end_date = st.date_input(
