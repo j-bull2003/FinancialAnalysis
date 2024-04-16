@@ -114,7 +114,7 @@ max_date = all_df["order_date"].max()
 
 with st.sidebar:
     # ! Add company's logo
-    st.image("https://i.pinimg.com/736x/0f/8a/cc/0f8acca27bb92d6010be4435fc4a1707.jpg")
+    st.image("../assets/Logo-Sis-collection.jpg")
 
     # ! Take start_date & end_date from date_input
     start_date, end_date = st.date_input(
@@ -140,7 +140,7 @@ rfm_df = create_rfm_df(main_df)
 
 
 # ! 11. plot number of daily orders (2021)
-st.header("Bro Collection Dashboard 👔")
+st.header("Sisters Collection Dashboard 👔")
 st.subheader("Daily Orders")
 
 col1, col2 = st.columns(2)
@@ -335,4 +335,4 @@ ax[2].tick_params(axis="x", labelsize=35)
 
 st.pyplot(fig)
 
-st.caption("Copyright @ Bro Collection 2023")
+st.caption("Copyright @ Jess Bull Sisters Collection 2023")
